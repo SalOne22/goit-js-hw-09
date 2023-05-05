@@ -5,6 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Countdown timer</title>
     <link rel="stylesheet" href="css/common.css" />
+    <style>
+      #datetime-picker {
+        height: 1.725rem;
+        min-width: 230px;
+      }
+
+      button {
+        padding: 5px 0;
+        min-width: 60px;
+      }
+
+      .timer {
+        display: flex;
+        gap: 5px;
+      }
+
+      .timer .field {
+        display: flex;
+        flex-direction: column;
+        min-width: 70px;
+        text-align: center;
+      }
+
+      .timer .value {
+        font-size: 40px;
+      }
+
+      .timer .label {
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+    </style>
   </head>
   <body>
     <p><a href="index.html">Go back</a></p>

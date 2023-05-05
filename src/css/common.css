@@ -16,3 +16,11 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button {
+  border: 1px solid gray;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 150ms ease-in-out;
+}
